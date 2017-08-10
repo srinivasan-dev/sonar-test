@@ -1,0 +1,198 @@
+body{
+	background-color:#f8f8f8;
+	font:normal 12px sans-serif, Arial, Helvetica;
+}
+.form-container{
+	border: 1px solid #ccc;
+	padding: 30px;
+	box-sizing: border-box;
+	margin-top: 12%;
+}
+.jquery-accordion-menu {
+	/*background-color: #f8f8f8;*/
+    /*border-right: 1px solid #ccc;*/
+	padding-left:0;
+	padding-right: 0;
+    min-height: 612px;
+	min-width: auto !important;
+}
+
+.navbar-fixed-bottom, .navbar-fixed-top{
+	position: static;
+	background-color:#000;
+}
+.navbar{
+	min-height: 70px;
+	margin-bottom: 0;
+}
+#demo-list li a {
+	font-size:12px;
+	background: #767775;
+	color:#fff;
+}
+#demo-list li a:hover{
+	background: #29b1fd;
+}
+
+#demo-list li.active a{
+	background: #29b1fd;
+}
+.navbar .navbar-right{
+	margin-right:0px;
+}
+.navbar .nav>li>a:focus, .nav>li>a:hover {
+	background-color:#27a6be;
+}
+.dropdown a .fa.fa-user.fa-3x {
+	color:#fff;
+}
+
+.title {
+	border-bottom: 1px solid #767775;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	font-size: 23px;
+    text-transform: uppercase;
+    color: #666666;
+}
+form {
+	margin-bottom:30px;
+}
+p.error-text {
+	color:red;
+	font-size:14px;
+	display:none;
+}
+/*.label-font{
+	font-size: 14px;
+}*/
+fieldset {
+	padding-bottom:30px;
+	border-radius:10px;
+	padding-top:30px;
+	border:1px solid #767775;
+	font-family:sans-serif;
+	color:#181818;
+	font-size:14px;
+	/*padding-right: 70px;*/
+}
+table{
+	    border-color: #ccc;
+}
+table tr td {
+	padding: 5px;
+	text-align:left;
+}
+#cart_table {
+	margin-bottom:30px;
+}
+
+#cart_table input {
+	width: 50px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    height: 26px;
+    padding: 5px;
+}
+
+.btn{
+	background: #29b1fd !important;
+	color: #fff;
+	border-color: #29b1fd !important;
+}
+.error_text{
+	color:red;
+}
+
+.form-control-search{
+	height: 28px;
+	font-size: 12px;
+	vertical-align: middle;
+}
+
+.checkbox p{
+	font-size: 14px;
+	padding: 0px;
+	line-height: 25px;
+	color: #565454;
+}
+
+.loc-status{
+		margin-bottom: 20px;
+		margin-left: -15px;
+}
+.add_job{
+	padding-right: 7%;
+}
+.add-btn{
+	margin-right: 1%;
+}
+
+.state{
+	margin-top: 20px;
+}
+.phone{
+	margin-bottom: 0px;
+}
+
+
+@media screen and (max-width: 767px) and (min-width: 320px){
+	h2.project-name {
+		font-size:25px;
+	}
+	.navbar-fixed-top ul.nav.navbar-top-links.navbar-right{
+		display:none;
+	}
+
+	/*.main-contain{
+		clear:both;
+	}*/
+
+	.welcome{
+		margin-top: 200px;
+		text-align: center;
+}
+
+	.welcome-text h1{
+		/*padding-top:10%;*/
+		margin-bottom:10%;
+	}
+	.jquery-accordion-menu{
+		min-height:auto;
+	}
+	.jquery-accordion-menu{
+		float: none !important;
+	}
+	#demo-list{
+		display:none;
+	    position: absolute;
+	    width: 100%;
+	    z-index: 99;
+	}
+	.navbar-toggle{
+		margin-top: 25px;
+	}
+	.paging_table .form-inline fieldset{
+
+		padding: 10%;
+		box-sizing: border-box;
+
+	}
+	.col-sm-5{
+		width:42.5%;
+		float:left;
+		padding-left: 0;
+	}
+	.col-sm-7{
+		width:57.5%;
+		float:left;
+		word-wrap: break-word;
+	}
+	.status{
+		margin-top: 10px;
+	}
+
+}
+#manage_vendor .form-group{
+	/*margin-bottom: 10px;*/
+}

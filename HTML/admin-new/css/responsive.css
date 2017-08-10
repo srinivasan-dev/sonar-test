@@ -1,0 +1,35 @@
+@media(min-width:320px) and (max-width: 768px){
+
+    .form-joblist{
+        margin-left: 2%;
+    }
+    .add_job{
+        padding-right: 0px;
+    }
+    .form-users{
+        width: 96%;
+        margin-left: 2%;
+    }
+    .form-jobleads{
+        width: 96%;
+        margin-left: 2%;
+    }
+    .appliedjob{
+        width: 96%;
+        margin-left: 2%;
+    }
+    .page-header {    
+        margin: 112px 0 20px;
+        font-size: 25px;
+ 
+    }
+}
+@media(min-width: 768px) and (max-width: 1024px){
+
+    .add-btn{
+        margin-top: 3%;
+    }
+    .form-inline .form-control{
+        width: 63%;
+    }
+}

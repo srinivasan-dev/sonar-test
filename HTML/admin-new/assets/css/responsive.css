@@ -1,0 +1,24 @@
+/*Tablet View*/
+@media (min-width: 768px) and (max-width: 1365px){
+	.jquery-accordion-menu {
+		min-width: 260px;
+		position: relative;
+		font-size: 16px;
+		font-weight: bold;
+		width: 100%;
+    }
+
+    .welcome{
+			margin-top: 200px;
+      text-align: center;
+	}
+
+	/*Custom: Author:Sathiesh*/
+	.jquery-accordion-menu {
+    min-height: 0px;
+	}
+
+	.col-sm-9{
+		width: 100%;
+	}
+}
